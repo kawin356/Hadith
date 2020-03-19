@@ -12,6 +12,8 @@
 		432F054C242341380071A3E0 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F054B242341380071A3E0 /* PresentationManager.swift */; };
 		432F054E2423414C0071A3E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F054D2423414C0071A3E0 /* Constants.swift */; };
 		432F05502423421A0071A3E0 /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F054F2423421A0071A3E0 /* GettingStartedViewController.swift */; };
+		432F0556242361850071A3E0 /* HadithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F0555242361850071A3E0 /* HadithViewController.swift */; };
+		432F0559242372F60071A3E0 /* Hadith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F0558242372F60071A3E0 /* Hadith.swift */; };
 		435BE0B3240D5D38004C0853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BE0B2240D5D38004C0853 /* AppDelegate.swift */; };
 		435BE0B5240D5D38004C0853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BE0B4240D5D38004C0853 /* SceneDelegate.swift */; };
 		435BE0B7240D5D38004C0853 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BE0B6240D5D38004C0853 /* LoadingViewController.swift */; };
@@ -27,6 +29,8 @@
 		432F054B242341380071A3E0 /* PresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
 		432F054D2423414C0071A3E0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		432F054F2423421A0071A3E0 /* GettingStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
+		432F0555242361850071A3E0 /* HadithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithViewController.swift; sourceTree = "<group>"; };
+		432F0558242372F60071A3E0 /* Hadith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hadith.swift; sourceTree = "<group>"; };
 		435BE0AF240D5D38004C0853 /* Hadith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hadith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435BE0B2240D5D38004C0853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		435BE0B4240D5D38004C0853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,14 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		432F0557242372EC0071A3E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				432F0558242372F60071A3E0 /* Hadith.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		435BE0A6240D5D38004C0853 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +110,13 @@
 		435BE0B1240D5D38004C0853 /* Hadith */ = {
 			isa = PBXGroup;
 			children = (
+				432F0557242372EC0071A3E0 /* Model */,
 				432F054A2423412D0071A3E0 /* Manager */,
 				432F054524233FE00071A3E0 /* Helper */,
 				435BE0B2240D5D38004C0853 /* AppDelegate.swift */,
 				435BE0B4240D5D38004C0853 /* SceneDelegate.swift */,
-				435BE0C6240D5D53004C0853 /* Controller */,
 				435BE0C7240D5D5F004C0853 /* View */,
+				435BE0C6240D5D53004C0853 /* Controller */,
 				435BE0BB240D5D39004C0853 /* Assets.xcassets */,
 				435BE0BD240D5D39004C0853 /* LaunchScreen.storyboard */,
 				435BE0C0240D5D39004C0853 /* Info.plist */,
@@ -117,6 +130,7 @@
 			children = (
 				435BE0B6240D5D38004C0853 /* LoadingViewController.swift */,
 				432F054F2423421A0071A3E0 /* GettingStartedViewController.swift */,
+				432F0555242361850071A3E0 /* HadithViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,11 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				435BE0B7240D5D38004C0853 /* LoadingViewController.swift in Sources */,
+				432F0556242361850071A3E0 /* HadithViewController.swift in Sources */,
 				435BE0B3240D5D38004C0853 /* AppDelegate.swift in Sources */,
 				435BE0B5240D5D38004C0853 /* SceneDelegate.swift in Sources */,
 				432F054C242341380071A3E0 /* PresentationManager.swift in Sources */,
 				432F0547242340070071A3E0 /* Helper.swift in Sources */,
 				432F054E2423414C0071A3E0 /* Constants.swift in Sources */,
+				432F0559242372F60071A3E0 /* Hadith.swift in Sources */,
 				432F05502423421A0071A3E0 /* GettingStartedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

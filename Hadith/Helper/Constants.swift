@@ -12,4 +12,20 @@ struct K {
     struct Segue {
         static let gettingStarted: String = "GettingStarted"
     }
+    struct Storyboard {
+        static let main: String = "Main"
+        static let mainTabbar: String = "MainTabbar"
+    }
+    struct Table {
+        static let reuseCell: String = "Cell"
+    }
+    
+    struct FireStore {
+        static let collectionName: String = "Hadith"
+        static let hadithName: String = "hadithName"
+        static let arab: String = "arab"
+        static let thai: String = "thai"
+        static let type: String = "type"
+        static let rec: String = "recorder"
+    }
 }

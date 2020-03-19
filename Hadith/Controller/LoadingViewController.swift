@@ -10,8 +10,8 @@ import UIKit
 import Firebase
 
 class LoadingViewController: UIViewController {
-
-    let db = Firestore.firestore()
+    
+    private var isFirstTime: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +21,23 @@ class LoadingViewController: UIViewController {
         super.viewDidAppear(animated)
         
         delay(second: 2.0) {
-            self.performSegue(withIdentifier: K.Segue.gettingStarted, sender: nil)
+            if self.isFirstTime {
+                
+                self.performSegue(withIdentifier: K.Segue.gettingStarted, sender: nil)
+                
+            } else {
+                let mainController = UIStoryboard(name: K.Storyboard.main, bundle: nil).instantiateViewController(identifier: K.Storyboard.mainTabbar)
+                let sceneDelegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+                let window = sceneDelegate.window
+                
+                 UIView.transition(with: window!, duration: 1.0, options: .transitionCrossDissolve, animations: nil, completion: nil)
+                
+                window?.rootViewController = mainController
+                
+               
+            }
         }
     }
-
+    
 }
 
