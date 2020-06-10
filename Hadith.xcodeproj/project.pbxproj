@@ -20,7 +20,7 @@
 		435BE0BA240D5D38004C0853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435BE0B8240D5D38004C0853 /* Main.storyboard */; };
 		435BE0BC240D5D39004C0853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435BE0BB240D5D39004C0853 /* Assets.xcassets */; };
 		435BE0BF240D5D39004C0853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435BE0BD240D5D39004C0853 /* LaunchScreen.storyboard */; };
-		435BE0CD240D6B6F004C0853 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435BE0CC240D6B6F004C0853 /* GoogleService-Info.plist */; };
+		43E5779C249156B5003DB3D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E5779B249156B5003DB3D9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		435BE0BB240D5D39004C0853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435BE0BE240D5D39004C0853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		435BE0C0240D5D39004C0853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		435BE0CC240D6B6F004C0853 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43E5779B249156B5003DB3D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4AEA9904CB9469830B0A08ED /* Pods_Hadith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hadith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5879227ACC5B711D1D9DB107 /* Pods-Hadith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hadith.debug.xcconfig"; path = "Target Support Files/Pods-Hadith/Pods-Hadith.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +119,8 @@
 				435BE0C6240D5D53004C0853 /* Controller */,
 				435BE0BB240D5D39004C0853 /* Assets.xcassets */,
 				435BE0BD240D5D39004C0853 /* LaunchScreen.storyboard */,
+				43E5779B249156B5003DB3D9 /* GoogleService-Info.plist */,
 				435BE0C0240D5D39004C0853 /* Info.plist */,
-				435BE0CC240D6B6F004C0853 /* GoogleService-Info.plist */,
 			);
 			path = Hadith;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				435BE0BF240D5D39004C0853 /* LaunchScreen.storyboard in Resources */,
-				435BE0CD240D6B6F004C0853 /* GoogleService-Info.plist in Resources */,
+				43E5779C249156B5003DB3D9 /* GoogleService-Info.plist in Resources */,
 				435BE0BC240D5D39004C0853 /* Assets.xcassets in Resources */,
 				435BE0BA240D5D38004C0853 /* Main.storyboard in Resources */,
 			);
